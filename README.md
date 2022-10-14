@@ -1,6 +1,16 @@
 # factors
 Summary notes on factors.
 
+## About factors
+
+Factors explain part of the variations in the data, while the unexplained part is attributed to some random events.
+
+From one view, there are three groups of factor models:
+
+1. Macro factors
+2. Fundamental factors
+3. Statistical factors
+
 
 ## Models
 
