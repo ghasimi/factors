@@ -22,7 +22,7 @@ $$\boldsymbol{\mu} \text{: Vector of expected values of factors} $$
 
 $$\boldsymbol{\Sigma} \text{: Covariance matrix of factors}$$
 
-$$\boldsymbol{D} \text{: Diagonal matrix of variances of factors}$$
+$$\boldsymbol{D} \text{: Diagonal matrix of unexplained variances}$$
 
 
 
