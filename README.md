@@ -35,7 +35,7 @@ $$
 $$
 
 $$
-\sigma_{r_p}^2 = \boldsymbol{w' \Sigma w}
+\sigma_{r_p}^2 = \boldsymbol{w' \Sigma w + w'Dw}
 $$
 
 
