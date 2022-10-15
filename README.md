@@ -25,6 +25,54 @@ $$\boldsymbol{\Sigma} \text{: Covariance matrix of factors}$$
 $$\boldsymbol{D} \text{: Diagonal matrix of variances of factors}$$
 
 
+
+Factor-based portfolio:
+
+$${ r_p = \boldsymbol{w' r} }$$
+
+$$
+\bar{r_p} = \boldsymbol{w' \mu}
+$$
+
+$$
+\sigma_{r_p}^2 = \boldsymbol{w' \Sigma w}
+$$
+
+
+Where $\boldsymbol{w}$ is the vector of weights. Expanded form with __n__ assets and __k__ factors:
+
+$$\begin{bmatrix} 
+  r_1 \\
+  \vdots \\
+  r_n   
+\end{bmatrix} =
+\begin{bmatrix} 
+  b_{11} & \ldots & b_{1k} \\
+  & \ddots & \\
+  b_{n1} & \ldots & b_{nk} \\  
+\end{bmatrix} 
+\begin{bmatrix} 
+  f_1 \\
+  \vdots \\
+  f_k   
+\end{bmatrix} + 
+\begin{bmatrix} 
+  u_1 \\
+  \vdots \\
+  u_n
+\end{bmatrix}$$
+
+$$
+r_p = 
+\begin{bmatrix} w_1 & \ldots & w_n \end{bmatrix}
+\begin{bmatrix} 
+  r_1 \\
+  \vdots \\
+  r_n   
+\end{bmatrix}
+$$
+
+
 ## Factor models variations
 
 
