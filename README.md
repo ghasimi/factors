@@ -1,34 +1,32 @@
 # factors
 Summary notes on factors.
 
-## About factors
+## Factor model
 
-Factors explain part of the variations in the data, while the unexplained part is attributed to some random events. Formally:
+Factors explain part of the variations in the data, while the unexplained part is attributed to some random events (i.e. noise). Formally:
 
-$${R = \beta F + U}$$
+$${ \boldsymbol{r = BF + u}}$$
 
-$$\begin{bmatrix} 
-  r1 \\
-  \vdots \\
-  rn   
-\end{bmatrix} =
-\begin{bmatrix} 
-  b_{11} & \ldots & b_{1k} \\
-  & \ddots & \\
-  b_{n1} & \ldots & b_{nk} \\  
-\end{bmatrix} 
-\begin{bmatrix} 
-  f_1 \\
-  \vdots \\
-  f_k   
-\end{bmatrix} + 
-\begin{bmatrix} 
-  u_1 \\
-  \vdots \\
-  u_n
-\end{bmatrix}$$
+Where
 
-Where $R$ is a vector of target variable, $\beta$ is a matrix of factor exposures, $F$ is a vector of factors, and $U$ is a vector of residuals.
+$$\boldsymbol{B} \text{: Matrix of factor exposures} $$
+
+$$\boldsymbol{F} \text{: Vector of factors} $$
+
+$$\boldsymbol{u} \text{: Vector of noise (unexplained) } $$
+
+
+And
+
+$$\boldsymbol{\mu} \text{: Vector of expected values of factors} $$
+
+$$\boldsymbol{\Sigma} \text{: Covariance matrix of factors}$$
+
+$$\boldsymbol{D} \text{: Diagonal matrix of variances of factors}$$
+
+
+## Factor models variations
+
 
 From one view, there are three groups of factor models:
 
@@ -37,7 +35,8 @@ From one view, there are three groups of factor models:
 3. Statistical factors
 
 
-## Models
+## Classic factor models
+
 
 $R$: Excess return, i.e. return in excess of the risk free rate.
 
