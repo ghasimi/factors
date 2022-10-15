@@ -31,11 +31,11 @@ Factor-based portfolio:
 $${ r_p = \boldsymbol{w' r} }$$
 
 $$
-\bar{r_p} = \boldsymbol{w' \mu}
+\bar{r_p} = \boldsymbol{w' B \mu}
 $$
 
 $$
-\sigma_{r_p}^2 = \boldsymbol{w' \Sigma w + w'Dw}
+\sigma_{r_p}^2 = \boldsymbol{w' B \Sigma B' w + w'Dw}
 $$
 
 
