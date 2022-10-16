@@ -82,11 +82,11 @@ $$
 
 The literature often refers to the following three types of factor models:
 
-1. __Macro factors__: Estimates _exposures_ $B$ by regressing the target variables $r$ on the time-series of known factors $F$. e.g. Estimating sensetivity of stocks to macroeconomic factors such as inflation or unemployment rate.
+1. __Macro__: Estimates _exposures_ $B$ by regressing the target variables $r$ on the time-series of known factors $F$. e.g. Estimating sensetivity of stocks to macroeconomic factors such as inflation or unemployment rate.
 
-2. __Fundamental factors__: Estimates _factors_ $F$ using the cross-sectional regression of target variables $r$ on known exposures $B$. The known exposures are typically the attributes of the target variables. e.g. Size of companies (small, medium, and large cap) could be regarded as a factor. In this case, the market capitalization of each company is its _exposure_ to the size factor, while the factor needs to be estimated, by regressing the stock returns on the market cap data for a certain period.  
+2. __Fundamental__: Estimates _factors_ $F$ using the cross-sectional regression of target variables $r$ on known exposures $B$. The known exposures are typically the attributes of the target variables. e.g. Size of companies (small, medium, and large cap) could be regarded as a factor. In this case, the market capitalization of each company is its _exposure_ to the size factor, while the factor needs to be estimated, by regressing the stock returns on the market cap data for a certain period.  
 
-3. __Statistical factors__: Estimates both factors $F$ and exposures $B$ simultaneously, using statistical algorithms. 
+3. __Statistical__: Estimates both factors $F$ and exposures $B$ simultaneously, using statistical algorithms. 
 
 
 ## Classic factor models
