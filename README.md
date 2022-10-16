@@ -7,6 +7,11 @@ Factors explain part of the variations in the data, while the unexplained part i
 
 $${ \boldsymbol{r = BF + u}}$$
 
+$${\boldsymbol{\bar{r} = B\mu }}$$
+
+$${\boldsymbol{\sigma_{r}^2 = B \Sigma B' + D }}$$
+
+
 Where
 
 $$\boldsymbol{B} \text{: Matrix of factor exposures} $$
